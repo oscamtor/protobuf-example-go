@@ -2,7 +2,10 @@ syntax = "proto3";
 
 package example.simple;
 
-option go_package = "simplepb";
+// sustituimos el . por _ con respecto al anterior. 
+// Ademas anteponemos ./; con el significado "relative path where the code you want to generate. The path relative to the -go_out , you set in your command. 
+// After the semicolon is just the package name."
+option go_package = "./;example_simple";
 
 message SimpleMessage {
   int32 id = 1;

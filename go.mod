@@ -7,4 +7,4 @@ require (
 	github.com/simplesteph/protobuf-example-go v0.0.0-20190130195546-9b853a5afef9
 )
 
-require google.golang.org/protobuf v1.26.0 // indirect
+require google.golang.org/protobuf v1.28.0 // indirect
