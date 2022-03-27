@@ -2,14 +2,14 @@ syntax = "proto3";
 
 package example.enumerations;
 
-option go_package = "enumpb";
+option go_package = "./;enumpb";
 
 message EnumMessage {
   int32 id = 1;
   DayOfTheWeek day_of_the_week = 2;
 }
 
-enum DayOfTheWeek {
+enum DayOfTheWeek { 
   UNKNOWN = 0;
   MONDAY = 1;
   TUESDAY = 2;
